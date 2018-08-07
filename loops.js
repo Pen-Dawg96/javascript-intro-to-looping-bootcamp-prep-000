@@ -9,10 +9,9 @@ function whileLoop(n){
   function maybeTrue(){
     return Math.random() >= 5
   } 
-  let countdown = 5;
-  while (countdown > 0){
-    console.log(--countdown)
-   }
+  while (maybeTrue()){
+    console.log("done")
+  }
 }
 function doWhileLoop(array){
   do {
