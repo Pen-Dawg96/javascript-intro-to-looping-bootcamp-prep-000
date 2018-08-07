@@ -5,7 +5,10 @@ function forLoop(array){
   return array
 }
 function whileLoop(n){
-  let countdown = 0;
+  let countdown = 5;
+  function maybeTrue(){
+    return Math.random() >= 5
+  }
   while (countdown > 0){
     console.log(--countdown)
    }
@@ -13,5 +16,5 @@ function whileLoop(n){
 function doWhileLoop(array){
   do {
     
-  }
+  } while (array.length > 0 && maybeTrue())
 }
