@@ -10,14 +10,11 @@ function forLoop(array){
 }
 
 function whileLoop(n){
- 
-  function maybeTrue(){
-    return Math.random() >= 5
-  } 
-  while (maybeTrue()){
-    console.log("done")
+  while (n > 0) {
+    
   }
 }
+ 
 function doWhileLoop(array){
   do {
     
